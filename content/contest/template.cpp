@@ -1,15 +1,20 @@
 #include <bits/stdc++.h>
 using namespace std;
+using ll = long long;
+using pii = pair<int, int>;
+#define dbg(x) cerr<<#x": "<<(x)<<endl
+#define dbg_p(x) cerr<<#x": "<<(x).first<<' '<<(x).second<<endl
+#define dbg_v(x, n) {cerr<<#x"[]: ";for(long long _=0;_<n;++_)cerr<<(x)[_]<<' ';cerr<<endl;}
+#define all(v) v.begin(), v.end()
 
-#define rep(i, a, b) for(int i = a; i < (b); ++i)
-#define trav(a, x) for(auto& a : x)
-#define all(x) x.begin(), x.end()
-#define sz(x) (int)(x).size()
-typedef long long ll;
-typedef pair<int, int> pii;
-typedef vector<int> vi;
+template<typename T1, typename T2>
+ostream& operator <<(ostream &out, const pair<T1, T2> &item) {
+	out << '(' << item.first << ", " << item.second << ')';
+	return out;
+}
 
-int main() {
-	cin.sync_with_stdio(0); cin.tie(0);
-	cin.exceptions(cin.failbit);
+template<typename T>
+ostream& operator <<(ostream &out, const vector<T> &v) {
+	for(const auto &item : v) out << item << ' ';
+	return out;
 }
