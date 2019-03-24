@@ -1,3 +1,13 @@
+/**
+ * Author: Djok
+ * Date: 2020-01-01
+ * License: CC0
+ * Source: My head
+ * Description: None
+ * Usage: ask Djok
+ * Status: tested I guess
+ */
+
 bool isPrime(int x) {
   if(x < 2) return 0;
   if(x == 2) return 1;

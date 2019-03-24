@@ -1,4 +1,13 @@
-#include <bits/stdc++.h>
+/**
+ * Author: Djok
+ * Date: 2020-01-01
+ * License: CC0
+ * Source: My head
+ * Description: None
+ * Usage: ask Djok
+ * Status: tested I guess
+ */
+ #include <bits/stdc++.h>
 
 using namespace std;
 

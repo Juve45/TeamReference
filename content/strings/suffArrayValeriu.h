@@ -1,4 +1,14 @@
-#pragma GCC optimize("Ofast")
+/**
+ * Author: Djok
+ * Date: 2020-01-01
+ * License: CC0
+ * Source: My head
+ * Description: None
+ * Usage: ask Djok
+ * Status: tested I guess
+ */
+
+ #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
 #include <bits/stdc++.h>
 using namespace std;

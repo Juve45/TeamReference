@@ -1,3 +1,13 @@
+/**
+ * Author: Djok
+ * Date: 2020-01-01
+ * License: CC0
+ * Source: My head
+ * Description: None
+ * Usage: ask Djok
+ * Status: tested I guess
+ */
+
 const double PI = acos(-1);
 typedef complex<double> ftype;
 

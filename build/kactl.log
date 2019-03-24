@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.2.13)  22 MAR 2019 15:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.2.13)  24 MAR 2019 21:40
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -844,7 +844,28 @@ LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <7> not available
 )
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/contest/.bashrc" -o kactl.tmp -l sh)...executed.
+runsystem(python2 kactlprocessor.py -i "../content/contest/templateAlex.cpp" -o kactl.tmp -l rawcpp)...executed.
+
+ (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+)
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 6.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <7> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 6.
+)
+runsystem(rm -f kactl.tmp)...executed.
+
+runsystem(python2 kactlprocessor.py -i "../content/contest/troubleshoot.txt" -o kactl.tmp -l raw)...executed.
+
+ (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+))
+runsystem(rm -f kactl.tmp)...executed.
+
+runsystem(python2 kactlprocessor.py -i "../content/contest/stresstest.sh" -o kactl.tmp -l sh)...executed.
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -852,37 +873,16 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-)
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 7.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <7> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 7.
-)
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/contest/.vimrc" -o kactl.tmp -l raw)...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/contest/troubleshoot.txt" -o kactl.tmp -l raw)...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))) (../content/math/chapter.tex
 Chapter 2.
-<../content/math/sphericalCoordinates.pdf, id=9, 42.67899pt x 42.67899pt>
+[1
+
+] <../content/math/sphericalCoordinates.pdf, id=25, 42.67899pt x 42.67899pt>
 File: ../content/math/sphericalCoordinates.pdf Graphic file (type pdf)
  <use ../content/math/sphericalCoordinates.pdf>
 Package pdftex.def Info: ../content/math/sphericalCoordinates.pdf used on input line 63.
 (pdftex.def)             Requested size: 71.13188pt x 71.14337pt.
- [1
-
-] [2 <../content/math/sphericalCoordinates.pdf>]) (../content/data-structures/chapter.tex
+ [2 <../content/math/sphericalCoordinates.pdf>]) (../content/data-structures/chapter.tex
 Chapter 3.
 runsystem(rm -f kactl.tmp)...executed.
 
@@ -893,53 +893,32 @@ File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/data-structures/SegmentTree.h" -o kactl.tmp )...executed.
+runsystem(python2 kactlprocessor.py -i "../content/data-structures/LazySegmentTree.h" -o kactl.tmp )...executed.
+
+ (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+) [3])
+runsystem(rm -f kactl.tmp)...executed.
+
+runsystem(python2 kactlprocessor.py -i "../content/data-structures/implicitTreapsMaxValeriu.cpp" -o kactl.tmp )...executed.
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/data-structures/LineContainer.h" -o kactl.tmp )...executed.
+runsystem(python2 kactlprocessor.py -i "../content/data-structures/convexhulltrick.cpp" -o kactl.tmp )...executed.
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/data-structures/ConvexTree.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-)
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
- [3])
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/data-structures/Treap.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/data-structures/FenwickTree.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
+) [4])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/data-structures/FenwickTree2d.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-) [4])
+))
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/data-structures/RMQ.h" -o kactl.tmp )...executed.
@@ -950,18 +929,21 @@ File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Chapter 4.
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/numerical/FracBinarySearch.h" -o kactl.tmp )...executed.
+runsystem(python2 kactlprocessor.py -i "../content/numerical/Polynomial.h" -o kactl.tmp )...executed.
 
-(./kactl.tmp
-
-Package kactlpkg Warning:  FracBinarySearch.h : Unknown command: Complexity.  on input line 1.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+(./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
+)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 69.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
+)
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/numerical/GoldenSectionSearch.h" -o kactl.tmp )...executed.
+runsystem(python2 kactlprocessor.py -i "../content/numerical/PolyRoots.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp
 LaTeX Font Info:    Try loading font information for OMS+pcr on input line 8.
@@ -972,28 +954,7 @@ LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <7> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
  (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/numerical/HillClimbing.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/numerical/Polynomial.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ) [5])
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/numerical/PolyRoots.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/numerical/PolyInterpolate.h" -o kactl.tmp )...executed.
@@ -1021,20 +982,6 @@ File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/numerical/FFT.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-) [6])
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/numerical/FST.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
-runsystem(rm -f kactl.tmp)...executed.
-
 runsystem(python2 kactlprocessor.py -i "../content/numerical/Integrate.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
@@ -1053,7 +1000,7 @@ runsystem(python2 kactlprocessor.py -i "../content/numerical/Simplex.h" -o kactl
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-) [7])
+) [6])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/numerical/SolveLinear.h" -o kactl.tmp )...executed.
@@ -1071,9 +1018,16 @@ File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Chapter 5.
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/number-theory/ModOps.h" -o kactl.tmp )...executed.
+runsystem(python2 kactlprocessor.py -i "../content/number-theory/mathValeriu.h" -o kactl.tmp )...executed.
 
 (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+) [7])
+runsystem(rm -f kactl.tmp)...executed.
+
+runsystem(python2 kactlprocessor.py -i "../content/number-theory/nrPentagonaleValeriu.h" -o kactl.tmp )...executed.
+
+ (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
@@ -1085,25 +1039,11 @@ File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/number-theory/ModSum.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-) [8])
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/number-theory/ModMulLL.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
-runsystem(rm -f kactl.tmp)...executed.
-
 runsystem(python2 kactlprocessor.py -i "../content/number-theory/ModSqrt.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
+)) [8]
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/number-theory/NTT.h" -o kactl.tmp )...executed.
@@ -1113,51 +1053,23 @@ File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/number-theory/Eratosthenes.h" -o kactl.tmp )...executed.
+runsystem(python2 kactlprocessor.py -i "../content/number-theory/fftValeriu.h" -o kactl.tmp )...executed.
 
-
-
-! LaTeX Error: File `kactl.tmp' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tmp)
-
-Enter file name: 
+ (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+) [9])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/number-theory/MillerRabin.h" -o kactl.tmp )...executed.
 
-(./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+ (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/number-theory/Factor.h" -o kactl.tmp )...executed.
-
-
-
-! LaTeX Error: File `kactl.tmp' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tmp)
-
-Enter file name: 
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/number-theory/Euclid.h" -o kactl.tmp )...executed.
-
-
-! LaTeX Error: File `kactl.tmp' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tmp)
-
-Enter file name: 
-runsystem(rm -f kactl.tmp)...executed.
-
 runsystem(python2 kactlprocessor.py -i "../content/number-theory/phiFunction.h" -o kactl.tmp )...executed.
 
-(./kactl.tmp [9] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+ (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
@@ -1169,17 +1081,10 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
  (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))) (../content/combinatorial/chapter.tex
+)) [10]) (../content/combinatorial/chapter.tex
 Chapter 6.
 (../content/combinatorial/twelvefoldway.tex) (../content/combinatorial/factorial.tex)
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/combinatorial/intperm.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
-Overfull \hbox (6.88965pt too wide) detected at line 17
+Overfull \hbox (6.88965pt too wide) detected at line 16
 \OML/cmm/m/it/10 D\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ) = (\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1)(\OML/cmm/m/it/10 D\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1) + \OML/cmm/m/it/10 D\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 2)) = \OML/cmm/m/it/10 nD\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1) + (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1)[] = []
  []
 
@@ -1189,7 +1094,7 @@ runsystem(python2 kactlprocessor.py -i "../content/combinatorial/derangements.h"
 
 (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-) [10]) [11]
+)) [11] [12]
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/combinatorial/binomial.h" -o kactl.tmp )...executed.
@@ -1219,20 +1124,13 @@ runsystem(python2 kactlprocessor.py -i "../content/combinatorial/multinomial.h" 
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 100.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 99.
 ) (../content/graph/chapter.tex
 Chapter 7.
-[12]
+[13]
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/graph/EulerWalk.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/graph/DinicFlow.h" -o kactl.tmp )...executed.
+runsystem(python2 kactlprocessor.py -i "../content/graph/DinicValeriu.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
@@ -1246,44 +1144,30 @@ File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/graph/MinCostMaxFlow.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-) [13])
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/graph/CycleCancelFlow.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/graph/MinCut.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/graph/GlobalMinCut.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/graph/GomoryHu.h" -o kactl.tmp )...executed.
+runsystem(python2 kactlprocessor.py -i "../content/graph/edmonsblossomValeriu.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ) [14])
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/graph/DFSMatching.h" -o kactl.tmp )...executed.
+runsystem(python2 kactlprocessor.py -i "../content/graph/minCostMaxFlowValeriu.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+))
+runsystem(rm -f kactl.tmp)...executed.
+
+runsystem(python2 kactlprocessor.py -i "../content/graph/StoerWagnerValeriu.h" -o kactl.tmp )...executed.
+
+ (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+))
+runsystem(rm -f kactl.tmp)...executed.
+
+runsystem(python2 kactlprocessor.py -i "../content/graph/matching.cpp" -o kactl.tmp )...executed.
+
+ (./kactl.tmp [15] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
@@ -1302,32 +1186,18 @@ File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/graph/SCC.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-) [15])
-runsystem(rm -f kactl.tmp)...executed.
-
 runsystem(python2 kactlprocessor.py -i "../content/graph/BiconnectedComponents.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/graph/2sat.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/graph/LCA.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ) [16])
+runsystem(rm -f kactl.tmp)...executed.
+
+runsystem(python2 kactlprocessor.py -i "../content/graph/2satValeriu.h" -o kactl.tmp )...executed.
+
+ (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+))
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/graph/CompressTree.h" -o kactl.tmp )...executed.
@@ -1341,36 +1211,15 @@ runsystem(python2 kactlprocessor.py -i "../content/graph/HLD.h" -o kactl.tmp )..
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/graph/LinkCutTree.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-) [17])
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/graph/MatrixTree.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))) (../content/strings/chapter.tex
 Chapter 8.
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/strings/KMP.h" -o kactl.tmp )...executed.
+runsystem(python2 kactlprocessor.py -i "../content/strings/ZFunction.h" -o kactl.tmp )...executed.
 
 (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/strings/ZFunction.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
+) [17])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/strings/Manacher.h" -o kactl.tmp )...executed.
@@ -1387,21 +1236,21 @@ File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/strings/MinRotation.h" -o kactl.tmp )...executed.
+runsystem(python2 kactlprocessor.py -i "../content/strings/SuffAtumatValeriu.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ) [18])
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/strings/SuffixArray.h" -o kactl.tmp )...executed.
+runsystem(python2 kactlprocessor.py -i "../content/strings/stringHashValeriu.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/strings/SuffixAutomaton.h" -o kactl.tmp )...executed.
+runsystem(python2 kactlprocessor.py -i "../content/strings/suffArrayValeriu.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
@@ -1412,51 +1261,13 @@ runsystem(python2 kactlprocessor.py -i "../content/strings/AhoCorasick.h" -o kac
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-) [19])) (../content/various/chapter.tex
+))) (../content/various/chapter.tex
 Chapter 9.
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/various/IntervalContainer.h" -o kactl.tmp )...executed.
-
-(./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/various/IntervalCover.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/various/ConstantIntervals.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
-\OT1/cmr/bx/n/7 Usage:  \OT1/pcr/m/n/7 ConstantIntervals(0, v.size(), [&](int x)\OMS/cmsy/m/n/7 f\OT1/pcr/m/n/7 return
- []
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/various/TernarySearch.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-\OT1/cmr/bx/n/7 Usage:  \OT1/pcr/m/n/7 int ind = TernarySearch(0,n-1,[&](int i)\OMS/cmsy/m/n/7 f\OT1/pcr/m/n/7 return
- []
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/various/AlphaBeta.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+(./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
@@ -1466,16 +1277,9 @@ runsystem(python2 kactlprocessor.py -i "../content/various/DivideAndConquerDP.h"
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
-runsystem(rm -f kactl.tmp)...executed.
-
-runsystem(python2 kactlprocessor.py -i "../content/various/KnuthDP.h" -o kactl.tmp )...executed.
-
- (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
- [20] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+ [19] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
@@ -1488,7 +1292,7 @@ runsystem(python2 kactlprocessor.py -i "../content/various/Unrolling.h" -o kactl
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))) [21] (../content/appendix/chapter.tex
+))) [20] (../content/appendix/chapter.tex
 Chapter A.
 runsystem(rm -f kactl.tmp)...executed.
 
@@ -1496,7 +1300,7 @@ runsystem(python2 kactlprocessor.py -i "../content/appendix/techniques.txt" -o k
 
 (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))) [22
+))) [21
 
 ]
 \tf@ptc=\write3
@@ -1504,18 +1308,18 @@ File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 
  (./kactl.aux) ) 
 Here is how much of TeX's memory you used:
- 10105 strings out of 494902
- 137281 string characters out of 6179891
- 808128 words of memory out of 5000000
- 12888 multiletter control sequences out of 15000+600000
- 11738 words of font info for 46 fonts, out of 8000000 for 9000
+ 9947 strings out of 494902
+ 133424 string characters out of 6179891
+ 815829 words of memory out of 5000000
+ 12813 multiletter control sequences out of 15000+600000
+ 12090 words of font info for 47 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 39i,15n,60p,802b,2348s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on kactl.pdf (23 pages, 748821 bytes).
+ 39i,15n,60p,802b,2341s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on kactl.pdf (22 pages, 736778 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
- 233 compressed objects within 3 object streams
+ 336 PDF objects out of 1000 (max. 8388607)
+ 234 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

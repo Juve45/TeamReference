@@ -1,4 +1,14 @@
-#include <bits/stdc++.h>
+/**
+ * Author: Djok
+ * Date: 2020-01-01
+ * License: CC0
+ * Source: My head
+ * Description: None
+ * Usage: ask Djok
+ * Status: tested I guess
+ */
+
+ #include <bits/stdc++.h>
 // Kth lexi substring with repetitions, aaa = {a, a, a, aa, aa, aaa}
 using namespace std;
 
