@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.2.13)  25 MAR 2019 13:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.2.13)  25 MAR 2019 21:37
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -869,52 +869,12 @@ File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Chapter 2.
 [1
 
-] <../content/math/math1.png, id=22, 1828.8325pt x 1112.155pt>
-File: ../content/math/math1.png Graphic file (type png)
- <use ../content/math/math1.png>
-Package pdftex.def Info: ../content/math/math1.png used on input line 9.
-(pdftex.def)             Requested size: 816.59412pt x 496.57898pt.
-
-Overfull \hbox (581.06274pt too wide) in paragraph at lines 9--10
-[][]  
- []
-
-[2 <../content/math/math1.png>] <../content/math/math2.png, id=28, 1824.8175pt x 1112.155pt>
-File: ../content/math/math2.png Graphic file (type png)
- <use ../content/math/math2.png>
-Package pdftex.def Info: ../content/math/math2.png used on input line 11.
-(pdftex.def)             Requested size: 816.59412pt x 497.68204pt.
-
-Overfull \hbox (581.06274pt too wide) in paragraph at lines 11--12
-[][]  
- []
-
-[3 <../content/math/math2.png>] <../content/math/math3.png, id=33, 1827.82875pt x 1114.1625pt>
-File: ../content/math/math3.png Graphic file (type png)
- <use ../content/math/math3.png>
-Package pdftex.def Info: ../content/math/math3.png used on input line 13.
-(pdftex.def)             Requested size: 816.59412pt x 497.74734pt.
-
-Overfull \hbox (581.06274pt too wide) in paragraph at lines 13--14
-[][]  
- []
-
-[4 <../content/math/math3.png>] <../content/math/math4.png, id=38, 1826.825pt x 1113.15875pt>
-File: ../content/math/math4.png Graphic file (type png)
- <use ../content/math/math4.png>
-Package pdftex.def Info: ../content/math/math4.png used on input line 15.
-(pdftex.def)             Requested size: 816.59412pt x 497.5707pt.
-
-Overfull \hbox (581.06274pt too wide) in paragraph at lines 15--16
-[][]  
- []
-
-[5 <../content/math/math4.png>] <../content/math/sphericalCoordinates.pdf, id=43, 42.67899pt x 42.67899pt>
+] <../content/math/sphericalCoordinates.pdf, id=25, 42.67899pt x 42.67899pt>
 File: ../content/math/sphericalCoordinates.pdf Graphic file (type pdf)
  <use ../content/math/sphericalCoordinates.pdf>
-Package pdftex.def Info: ../content/math/sphericalCoordinates.pdf used on input line 74.
+Package pdftex.def Info: ../content/math/sphericalCoordinates.pdf used on input line 63.
 (pdftex.def)             Requested size: 71.13188pt x 71.14337pt.
- [6 <../content/math/sphericalCoordinates.pdf>]) (../content/data-structures/chapter.tex
+ [2 <../content/math/sphericalCoordinates.pdf>]) (../content/data-structures/chapter.tex
 Chapter 3.
 runsystem(rm -f kactl.tmp)...executed.
 
@@ -927,7 +887,7 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/data-structures/LazySegmentTree.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [7] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+ (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
@@ -936,7 +896,7 @@ runsystem(python2 kactlprocessor.py -i "../content/data-structures/implicitTreap
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-) [8])
+) [3])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/data-structures/convexhulltrick.cpp" -o kactl.tmp )...executed.
@@ -950,7 +910,7 @@ runsystem(python2 kactlprocessor.py -i "../content/data-structures/FenwickTree2d
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
+) [4])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/data-structures/RMQ.h" -o kactl.tmp )...executed.
@@ -972,7 +932,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <7> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
- [9])
+)
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/numerical/PolyRoots.h" -o kactl.tmp )...executed.
@@ -986,7 +946,7 @@ LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <7> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
  (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
+) [5])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/numerical/PolyInterpolate.h" -o kactl.tmp )...executed.
@@ -1018,7 +978,7 @@ runsystem(python2 kactlprocessor.py -i "../content/numerical/Integrate.h" -o kac
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-) [10])
+))
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/numerical/IntegrateAdaptive.h" -o kactl.tmp )...executed.
@@ -1032,7 +992,7 @@ runsystem(python2 kactlprocessor.py -i "../content/numerical/Simplex.h" -o kactl
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
+) [6])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/numerical/SolveLinear.h" -o kactl.tmp )...executed.
@@ -1044,7 +1004,7 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/numerical/Tridiagonal.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [11] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+ (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))) (../content/number-theory/chapter.tex
 Chapter 5.
@@ -1054,7 +1014,7 @@ runsystem(python2 kactlprocessor.py -i "../content/number-theory/mathValeriu.h" 
 
 (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
+) [7])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/number-theory/nrPentagonaleValeriu.h" -o kactl.tmp )...executed.
@@ -1066,7 +1026,7 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/number-theory/ModInverse.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [12] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+ (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
@@ -1082,14 +1042,14 @@ runsystem(python2 kactlprocessor.py -i "../content/number-theory/NTT.h" -o kactl
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
+) [8])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/number-theory/fftValeriu.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-) [13])
+) [9])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/number-theory/MillerRabin.h" -o kactl.tmp )...executed.
@@ -1101,7 +1061,7 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/number-theory/phiFunction.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [14] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+ (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
@@ -1113,7 +1073,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
  (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))) (../content/combinatorial/chapter.tex
+)) [10]) (../content/combinatorial/chapter.tex
 Chapter 6.
 (../content/combinatorial/twelvefoldway.tex) (../content/combinatorial/factorial.tex)
 Overfull \hbox (6.88965pt too wide) detected at line 16
@@ -1126,7 +1086,7 @@ runsystem(python2 kactlprocessor.py -i "../content/combinatorial/derangements.h"
 
 (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-)) [15] [16]
+)) [11] [12]
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/combinatorial/binomial.h" -o kactl.tmp )...executed.
@@ -1159,7 +1119,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 99.
 ) (../content/graph/chapter.tex
 Chapter 7.
-[17]
+[13]
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/graph/DinicValeriu.h" -o kactl.tmp )...executed.
@@ -1180,7 +1140,7 @@ runsystem(python2 kactlprocessor.py -i "../content/graph/edmonsblossomValeriu.h"
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-) [18])
+) [14])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/graph/minCostMaxFlowValeriu.h" -o kactl.tmp )...executed.
@@ -1199,7 +1159,7 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/graph/matching.cpp" -o kactl.tmp )...executed.
 
- (./kactl.tmp [19] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+ (./kactl.tmp [15] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
@@ -1211,18 +1171,25 @@ File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
 
-runsystem(python2 kactlprocessor.py -i "../content/graph/BiconnectedComponents.h" -o kactl.tmp )...executed.
+runsystem(python2 kactlprocessor.py -i "../content/graph/Hungarian.cpp" -o kactl.tmp )...executed.
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
 
+runsystem(python2 kactlprocessor.py -i "../content/graph/BiconnectedComponents.h" -o kactl.tmp )...executed.
+
+ (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+) [16])
+runsystem(rm -f kactl.tmp)...executed.
+
 runsystem(python2 kactlprocessor.py -i "../content/graph/2satValeriu.h" -o kactl.tmp )...executed.
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-) [20])
+))
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/graph/CompressTree.h" -o kactl.tmp )...executed.
@@ -1244,7 +1211,7 @@ runsystem(python2 kactlprocessor.py -i "../content/strings/ZFunction.h" -o kactl
 
 (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
+) [17])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/strings/Manacher.h" -o kactl.tmp )...executed.
@@ -1256,7 +1223,7 @@ runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/strings/PalindromicTree.h" -o kactl.tmp )...executed.
 
- (./kactl.tmp [21] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+ (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
 runsystem(rm -f kactl.tmp)...executed.
@@ -1265,7 +1232,7 @@ runsystem(python2 kactlprocessor.py -i "../content/strings/SuffAtumatValeriu.h" 
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))
+) [18])
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/strings/stringHashValeriu.h" -o kactl.tmp )...executed.
@@ -1279,7 +1246,7 @@ runsystem(python2 kactlprocessor.py -i "../content/strings/suffArrayValeriu.h" -
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-) [22])
+))
 runsystem(rm -f kactl.tmp)...executed.
 
 runsystem(python2 kactlprocessor.py -i "../content/strings/AhoCorasick.h" -o kactl.tmp )...executed.
@@ -1302,9 +1269,21 @@ runsystem(python2 kactlprocessor.py -i "../content/various/DivideAndConquerDP.h"
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ))
+runsystem(rm -f kactl.tmp)...executed.
+
+runsystem(python2 kactlprocessor.py -i "../content/various/KnuthDP.h" -o kactl.tmp )...executed.
+
+ (./kactl.tmp
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+
+ []
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+))
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
- (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+ [19] (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
@@ -1317,7 +1296,7 @@ runsystem(python2 kactlprocessor.py -i "../content/various/Unrolling.h" -o kactl
 
  (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))) [23] (../content/appendix/chapter.tex
+))) [20] (../content/appendix/chapter.tex
 Chapter A.
 runsystem(rm -f kactl.tmp)...executed.
 
@@ -1325,7 +1304,7 @@ runsystem(python2 kactlprocessor.py -i "../content/appendix/techniques.txt" -o k
 
 (./kactl.tmp (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-))) [24
+))) [21
 
 ]
 \tf@ptc=\write3
@@ -1333,18 +1312,18 @@ File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 
  (./kactl.aux) ) 
 Here is how much of TeX's memory you used:
- 9935 strings out of 494902
- 133460 string characters out of 6179891
- 839172 words of memory out of 5000000
+ 9939 strings out of 494902
+ 133330 string characters out of 6179891
+ 835172 words of memory out of 5000000
  12805 multiletter control sequences out of 15000+600000
  12090 words of font info for 47 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 39i,15n,60p,802b,2343s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,15n,60p,802b,2341s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on kactl.pdf (25 pages, 1983807 bytes).
+Output written on kactl.pdf (22 pages, 740002 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
- 242 compressed objects within 3 object streams
+ 336 PDF objects out of 1000 (max. 8388607)
+ 234 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
