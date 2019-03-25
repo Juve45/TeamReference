@@ -3,7 +3,6 @@
  * Date: 2019-03-24
  * License: CC0
  * Description: Returns the maximum matching of a bipartite graph
- * Time: $O(\log N)$.
  */
 
 int l[NMAX], r[NMAX];
